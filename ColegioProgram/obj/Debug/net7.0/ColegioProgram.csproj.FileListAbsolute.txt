@@ -1,0 +1,17 @@
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\bin\Debug\net7.0\ColegioProgram.exe
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\bin\Debug\net7.0\ColegioProgram.deps.json
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\bin\Debug\net7.0\ColegioProgram.runtimeconfig.json
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\bin\Debug\net7.0\ColegioProgram.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\bin\Debug\net7.0\ColegioProgram.pdb
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.csproj.AssemblyReference.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.AssemblyInfoInputs.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.AssemblyInfo.cs
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.csproj.CoreCompileInputs.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\refint\ColegioProgram.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.pdb
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.genruntimeconfig.cache
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ref\ColegioProgram.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\julia\OneDrive\Escritorio\Nueva carpeta\ColegioChiapas\ColegioProgram\obj\Debug\net7.0\ColegioProgram.csproj.CopyComplete
