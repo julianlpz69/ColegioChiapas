@@ -9,6 +9,9 @@ namespace API.Profiles
         public MappingProfiles(){
 
             CreateMap<Colegio,ColegioDto>().ReverseMap();
+            CreateMap<Directivo,PersonaDto>().ReverseMap();
+            CreateMap<Estudiante,PersonaDto>().ReverseMap();
+            CreateMap<Profesor, PersonaDto>().ReverseMap();
         }
     }
 }

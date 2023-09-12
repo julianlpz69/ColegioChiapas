@@ -45,7 +45,46 @@ namespace API.Controllers
             colegioDto.Id = Colegio.Id;
             return CreatedAtAction(nameof(Post), new {id = colegioDto.Id}, colegioDto); 
           }
+
+
+
+            [HttpPut("{id}")]
+            [ProducesResponseType(StatusCodes.Status200OK)]
+            [ProducesResponseType(StatusCodes.Status404NotFound)]
+            [ProducesResponseType(StatusCodes.Status400BadRequest)]
+            
+            public async Task<ActionResult<ColegioDto>> Put(int id, [FromBody]ColegioDto colegioDto){
+                if(colegioDto == null)
+                    return NotFound();
+            
+                var cliente = this.mapper.Map<Colegio>(colegioDto);
+                unitOfWork.Colegios.Update(cliente);
+                await unitOfWork.SaveAsync();
+                return colegioDto;
+            }
+
+
+
+            [HttpDelete("{id}")]
+            [ProducesResponseType(StatusCodes.Status204NoContent)]
+            [ProducesResponseType(StatusCodes.Status404NotFound)]
+            
+            public async Task<IActionResult> Delete (int id){
+            var cliente = await unitOfWork.Colegios.GetByIdAsync(id);
+            if(cliente == null)
+            return NotFound();
+            
+            unitOfWork.Colegios.Remove(cliente);
+            await unitOfWork.SaveAsync();
+            return NoContent();    }
+
     }
 }
+
+
+
+
+
+
 
     

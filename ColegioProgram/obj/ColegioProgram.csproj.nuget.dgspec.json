@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {}
+    "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {
+    "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
+        "projectUniqueName": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
         "projectName": "ColegioProgram",
-        "projectPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\obj\\",
+        "projectPath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
+        "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

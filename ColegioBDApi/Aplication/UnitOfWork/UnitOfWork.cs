@@ -18,6 +18,8 @@ namespace Aplication.UnitOfWork
         private NotaRepository _nota;
         private ProfesorRepository _profesor;
         private TipoDirectivoRepository _tipoDirectivo;
+         private  RolRepository _rol;
+        private UserRepository _user;
         
         public UnitOfWork(ColegioDBContext context){
 
@@ -141,6 +143,27 @@ namespace Aplication.UnitOfWork
             return _tipoDirectivo;
         }
        }
+
+        public IRol Roles{
+            get{
+                if(_rol == null)
+                {
+                    _rol = new RolRepository(_context);
+                }
+                return _rol;
+            }
+        }
+
+
+         public IUser Users{
+            get{
+                if(_user == null)
+                {
+                    _user = new UserRepository(_context);
+                }
+                return _user;
+            }
+        }
 
         public async Task<int> SaveAsync()
         {

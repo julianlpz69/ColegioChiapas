@@ -1,34 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj": {}
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj": {
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\obj\\",
+        "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj": {
-                "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj"
+              "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj": {
+                "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj"
               }
             }
           }
@@ -72,6 +71,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -93,21 +96,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj": {
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj",
         "projectName": "Aplication",
-        "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\obj\\",
+        "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj",
+        "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -119,11 +122,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj"
+              "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj"
               },
-              "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj": {
-                "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj"
+              "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj": {
+                "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj"
               }
             }
           }
@@ -153,21 +156,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\obj\\",
+        "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -220,21 +223,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj": {
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj",
         "projectName": "Persistencia",
-        "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\obj\\",
+        "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\Persistencia.csproj",
+        "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -246,8 +249,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
-                "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj"
+              "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
+                "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj"
               }
             }
           }
@@ -287,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

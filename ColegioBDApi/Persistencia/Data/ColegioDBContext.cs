@@ -9,7 +9,7 @@ namespace Persistencia.Data.Configurations
         public ColegioDBContext(DbContextOptions<ColegioDBContext> options) : base(options)
         {
     
-        }
+        }  
 
         public DbSet<Boletin> Boletines { get; set; }
         public DbSet<Colegio> Colegios { get; set; }
@@ -24,6 +24,10 @@ namespace Persistencia.Data.Configurations
         public DbSet<Profesor> Profesores { get; set; }
         public DbSet<ProfesorMateria> ProfesoresMaterias { get; set; }
         public DbSet<TipoDirectivo> TiposDirectivos { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Rol> Rols { get; set; }
+        public DbSet<UserRol> UsersRols { get; set; }
+
     
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

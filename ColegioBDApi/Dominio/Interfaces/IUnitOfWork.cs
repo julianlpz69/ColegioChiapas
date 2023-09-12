@@ -13,5 +13,9 @@ namespace Dominio.Interfaces
          INota Notas {get;}
          IProfesor Profesores {get;}
          ITipoDirectivo TiposDirectivos {get;}
+         IRol Roles { get; }
+         IUser Users { get; }
+
+
     }
 }

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {}
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {}
   },
   "projects": {
-    "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
         "projectName": "Dominio",
-        "projectPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
-        "packagesPath": "C:\\Users\\julia\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\julia\\OneDrive\\Escritorio\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\obj\\",
+        "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
+        "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\julia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
