@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace ColegioProgram.Class
 {
@@ -15,7 +16,7 @@ namespace ColegioProgram.Class
 
                 try
             {
-                string urls = "http://localhost:5145/api/colegio";
+               string urls = "http://localhost:5145/api/colegio";
                 // Datos que deseas enviar en el cuerpo de la solicitud (en formato JSON, por ejemplo)
                 string jsonContent = "{\"nombreColegio\": \"Rafael Pombo\", \"dirreccionColegio\": \"calle 12 #23-11\"}";
 
@@ -44,6 +45,7 @@ namespace ColegioProgram.Class
 
             }
         }
+
 
 
 

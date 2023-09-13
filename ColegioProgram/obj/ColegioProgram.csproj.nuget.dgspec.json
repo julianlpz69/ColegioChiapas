@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {}
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {
+    "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
+        "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
         "projectName": "ColegioProgram",
-        "projectPath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
+        "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\ColegioProgram.csproj",
         "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\obj\\",
+        "outputPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioProgram\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
