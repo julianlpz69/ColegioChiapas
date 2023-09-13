@@ -1,3 +1,5 @@
+using System.Data;
+
 namespace API.Dtos
 {
     public class DatosUserDto
@@ -8,5 +10,7 @@ namespace API.Dtos
         public string UserEmail { get; set; }
         public List<string> Roles { get; set; }
         public string Token { get; set; }
+        public string RefreshToken {get; set;}
+        public DateTime Expiry {get; set;}
     }
 }

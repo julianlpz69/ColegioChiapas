@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Persistencia.Data;
 using Persistencia.Data.Configurations;
+using System.Reflection;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -13,6 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddJWT(builder.Configuration);
+builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 builder.Services.AddAppServices();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddAuthorization(opts =>
@@ -35,7 +37,7 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
+app.UseCors("CorsPolicy");
 app.MapControllers();
 app.UseAuthentication(); //AUTENTICACION PRIMERO 
 app.UseAuthorization();

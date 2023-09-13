@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ctQxNnOr0zc9BLhD9fetUQNJ5JGJjpBb6pIJvj1m6uCJfzPHPpZpJjHyVlwYUYPUGBSyM3BrO3spLTyt90Unuw==",
+  "dgSpecHash": "lh5OlE+C7w7AgulwP/cGg1IBfuq7mskqmNbWirFl3VhcHfijoEP06Apq8fMcwDSUuu50X56LJT0Sk4lmv1UR1w==",
   "success": true,
-  "projectFilePath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
+  "projectFilePath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Dominio\\Dominio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\APT01-51\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
     "C:\\Users\\APT01-51\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",

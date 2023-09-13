@@ -5994,11 +5994,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
+      "projectUniqueName": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
       "projectName": "API",
-      "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
+      "projectPath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\API.csproj",
       "packagesPath": "C:\\Users\\APT01-51\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\obj\\",
+      "outputPath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\APT01-51\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -6013,8 +6013,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj": {
-              "projectPath": "c:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj"
+            "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj": {
+              "projectPath": "C:\\Users\\APT01-51\\Desktop\\Nueva carpeta\\ColegioChiapas\\ColegioBDApi\\Aplication\\Aplication.csproj"
             }
           }
         }
