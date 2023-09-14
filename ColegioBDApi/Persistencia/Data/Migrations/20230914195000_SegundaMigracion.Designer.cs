@@ -11,8 +11,8 @@ using Persistencia.Data.Configurations;
 namespace Persistencia.Data.Migrations
 {
     [DbContext(typeof(ColegioDBContext))]
-    [Migration("20230909235430_PrimeraMigracion")]
-    partial class PrimeraMigracion
+    [Migration("20230914195000_SegundaMigracion")]
+    partial class SegundaMigracion
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -313,6 +313,49 @@ namespace Persistencia.Data.Migrations
                     b.ToTable("profesorMateria", (string)null);
                 });
 
+            modelBuilder.Entity("Dominio.Entities.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("Revoked")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Token")
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("refreshToken", (string)null);
+                });
+
+            modelBuilder.Entity("Dominio.Entities.Rol", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("NombreRol")
+                        .HasMaxLength(30)
+                        .HasColumnType("varchar(30)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("rol", (string)null);
+                });
+
             modelBuilder.Entity("Dominio.Entities.TipoDirectivo", b =>
                 {
                     b.Property<int>("Id")
@@ -328,6 +371,47 @@ namespace Persistencia.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("tipoDirectivo", (string)null);
+                });
+
+            modelBuilder.Entity("Dominio.Entities.User", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserEmail")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar");
+
+                    b.Property<string>("UserPassword")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("user", (string)null);
+                });
+
+            modelBuilder.Entity("Dominio.Entities.UserRol", b =>
+                {
+                    b.Property<int>("IdUser")
+                        .HasColumnType("int");
+
+                    b.Property<int>("IdRol")
+                        .HasColumnType("int");
+
+                    b.HasKey("IdUser", "IdRol");
+
+                    b.HasIndex("IdRol");
+
+                    b.ToTable("userRols", (string)null);
                 });
 
             modelBuilder.Entity("Dominio.Entities.Boletin", b =>
@@ -493,6 +577,36 @@ namespace Persistencia.Data.Migrations
                     b.Navigation("Profesor");
                 });
 
+            modelBuilder.Entity("Dominio.Entities.RefreshToken", b =>
+                {
+                    b.HasOne("Dominio.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Dominio.Entities.UserRol", b =>
+                {
+                    b.HasOne("Dominio.Entities.Rol", "Rol")
+                        .WithMany("UsersRols")
+                        .HasForeignKey("IdRol")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Dominio.Entities.User", "User")
+                        .WithMany("UsersRols")
+                        .HasForeignKey("IdUser")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Rol");
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Dominio.Entities.Boletin", b =>
                 {
                     b.Navigation("Notas");
@@ -543,9 +657,19 @@ namespace Persistencia.Data.Migrations
                     b.Navigation("ProfesoresMaterias");
                 });
 
+            modelBuilder.Entity("Dominio.Entities.Rol", b =>
+                {
+                    b.Navigation("UsersRols");
+                });
+
             modelBuilder.Entity("Dominio.Entities.TipoDirectivo", b =>
                 {
                     b.Navigation("Directivos");
+                });
+
+            modelBuilder.Entity("Dominio.Entities.User", b =>
+                {
+                    b.Navigation("UsersRols");
                 });
 #pragma warning restore 612, 618
         }

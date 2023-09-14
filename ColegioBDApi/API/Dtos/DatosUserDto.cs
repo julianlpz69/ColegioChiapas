@@ -1,4 +1,5 @@
 using System.Data;
+using System.Text.Json.Serialization;
 
 namespace API.Dtos
 {
@@ -10,7 +11,8 @@ namespace API.Dtos
         public string UserEmail { get; set; }
         public List<string> Roles { get; set; }
         public string Token { get; set; }
+        [JsonIgnore]
         public string RefreshToken {get; set;}
-        public DateTime Expiry {get; set;}
+        public DateTime RefreshTokenExpiry {get; set;}
     }
 }

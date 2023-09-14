@@ -12,5 +12,6 @@ namespace Dominio.Entities
         public string UserPassword { get; set;}
         public ICollection<Rol> Rols { get; set; } = new HashSet<Rol>();
         public ICollection<UserRol> UsersRols { get; set;}
+        public ICollection<RefreshToken> RefreshTokens { get; set;}
     }
 }

@@ -11,7 +11,7 @@ namespace API.Services
         
         Task<string> RegisterAsync (RegisterDto model);
          Task<DatosUserDto> GetTokenAsync (LoginDto model);
-        Task<DatosUserDto> GetTokenAsync (AuthenticationTokenResultDto model);
+        Task<DatosUserDto> RefreshTokenAsync (string refreshToken);
          Task<string> AddRoleAsync (AddRoleDto model);
         
     }

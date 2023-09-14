@@ -11,7 +11,7 @@ using Persistencia.Data.Configurations;
 namespace Persistencia.Data.Migrations
 {
     [DbContext(typeof(ColegioDBContext))]
-    [Migration("20230912191842_TerceraMigracion")]
+    [Migration("20230914195318_TerceraMigracion")]
     partial class TerceraMigracion
     {
         /// <inheritdoc />
@@ -313,6 +313,34 @@ namespace Persistencia.Data.Migrations
                     b.ToTable("profesorMateria", (string)null);
                 });
 
+            modelBuilder.Entity("Dominio.Entities.RefreshToken", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Created")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime>("Expires")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<DateTime?>("Revoked")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Token")
+                        .HasColumnType("longtext");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("refreshToken", (string)null);
+                });
+
             modelBuilder.Entity("Dominio.Entities.Rol", b =>
                 {
                     b.Property<int>("Id")
@@ -549,6 +577,17 @@ namespace Persistencia.Data.Migrations
                     b.Navigation("Profesor");
                 });
 
+            modelBuilder.Entity("Dominio.Entities.RefreshToken", b =>
+                {
+                    b.HasOne("Dominio.Entities.User", "User")
+                        .WithMany("RefreshTokens")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Dominio.Entities.UserRol", b =>
                 {
                     b.HasOne("Dominio.Entities.Rol", "Rol")
@@ -630,6 +669,8 @@ namespace Persistencia.Data.Migrations
 
             modelBuilder.Entity("Dominio.Entities.User", b =>
                 {
+                    b.Navigation("RefreshTokens");
+
                     b.Navigation("UsersRols");
                 });
 #pragma warning restore 612, 618

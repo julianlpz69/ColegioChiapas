@@ -5,7 +5,7 @@
 namespace Persistencia.Data.Migrations
 {
     /// <inheritdoc />
-    public partial class SegundaMigracion : Migration
+    public partial class TerceraMigracion : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
